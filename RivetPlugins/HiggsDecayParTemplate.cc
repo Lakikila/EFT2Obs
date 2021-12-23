@@ -68,7 +68,7 @@ namespace Rivet {
     for(int i=0;i<4;i++){
         cout<<i<<" "<<"pt "<<lep_pt_cp[i]<<endl;
     }
-    if(lep_pt_cp[-1] > 20 && lep_pt_cp[-2] > 10){pt_pass=true;}
+    if(lep_pt_cp[4] > 20 && lep_pt_cp[3] > 10){pt_pass=true;}
    
 
     if(pt_pass){
